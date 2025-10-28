@@ -1,0 +1,20 @@
+meta {
+  name: Получение моих ставок
+  type: http
+  seq: 10
+}
+
+get {
+  url: https://kitek.ktkv.dev/marketplace/api/bids/my
+  body: none
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE3NjExMDU1MjI2MzAsInVzZXJuYW1lIjoiMTU2IiwiaWF0IjoxNzYxMTA1NTIyLCJleHAiOjE3NjExOTE5MjJ9.MtrhpjXDzibXHAkU47q7Dk0tE0OpRNE7v1mEyC2ST2s
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -1,0 +1,16 @@
+meta {
+  name: Статистика платформы
+  type: http
+  seq: 5
+}
+
+get {
+  url: https://kitek.ktkv.dev/marketplace/api/stats
+  body: json
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

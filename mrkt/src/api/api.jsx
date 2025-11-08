@@ -44,6 +44,16 @@ export const loginUser = async (user) => {
     }
 }
 
+export const receivingItem = async () => {
+    try {
+        
+    }
+    catch(err) {
+        console.error(err)
+        throw new Error(err)
+    }
+}
+
 export const collectItem = async ()
 
 //https://kitek.ktkv.dev/marketplace/
